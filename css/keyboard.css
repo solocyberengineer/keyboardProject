@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(orange, purple);
+    height: 100vh;
+    padding: 2%;
+}
+.keyboardLayout {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    /* height: 125px; */
+    /* background-color: red; */
+    display: flex;
+    padding: 10px;
+    /* align-items: center; */
+    justify-content: center;
+}
+.qwerty {
+    /* background-color: blue; */
+    /* width: 80%; */
+}
+
+button {
+    margin: 0;
+    /* padding: 10px; */
+    /* background-color: white; */
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[class*='row']{
+    /* background-color: orange; */
+    margin-block: 10px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+
+.row1 button {
+    width: 51px;
+    height: 25px;
+    margin-inline: 4px;
+}
+.row1 button:first-child {
+    width: 60px;
+    height: 25px;
+}
+.row1 button:nth-child(16) {
+    width: 70px;
+    height: 25px;
+}
+
+.row2 button:first-child {
+    width: 50px
+}
+.row2 button {
+    /* width: calc(100%/15); */
+    width: 60px;
+    height: 50px;
+    margin-inline: 4px;
+}
+.row2 button:nth-child(14) {
+    /* width: calc(100%/15); */
+    width: 90px;
+    height: 50px;
+}
+
+.row3 button {
+    width: 60px;
+    height: 50px;
+    margin-inline: 4px;
+}
+.row3 button:first-child {
+    width: 80px;
+}
+/* .row3 button:nth-child(14){
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+} */
+
+.row3 button {
+    width: 60px;
+    height: 50px;
+    margin-inline: 4px;
+}
+.row3 button:first-child {
+    width: 80px;
+}
+.row3 button:nth-child(14) {
+    width: 60px;
+}
+
+.row4 button {
+    width: 60px;
+    height: 50px;
+    margin-inline: 4px;
+}
+.row4 button:first-child {
+    width: 90px;
+}
+.row4 button:nth-child(13){
+    width: 118px;
+}
+
+.row5 button {
+    width: 60px;
+    height: 50px;
+    margin-inline: 4px;
+}
+.row5 button:first-child {
+    width: 138px;
+}
+.row5 button:nth-child(12){
+    width: 138px;
+}
+
+.row6 button {
+    width: 60px;
+    height: 50px;
+    margin-inline: 4px;
+}
+.row6 button:first-child {
+    width: 70px;
+}
+.row6 button:nth-child(12){
+    width: 138px;
+}
+.row6 button:nth-child(5){
+    width: 333px;
+}
+.updownarrow {
+    /* background-color: blue; */
+    margin: 0 4px;
+    padding: 0;
+    /* display: block; */
+    /* border: 1px solid red; */
+    width: 69px;
+    display: block;
+}
+.updownarrow button {
+    height: 25px;
+    width: 69px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.numpad {
+    /* background-color: blue; */
+    /* width: 20%; */
+}
+.numpad div {
+    /* background-color: orange; */
+    margin-block: 10px;
+    display: flex;
+}
+.numpad div button {
+    width: 50px;
+    height: 25px;
+    margin-inline: 4px;
+}
+.numpad div:nth-child(2) button {
+    height: 50px;
+}
+.numpad div:nth-child(3) button {
+    height: 50px;
+}
+.numpad div:nth-child(4) button {
+    height: 50px;
+}
+.numpad div:nth-child(5) button {
+    height: 50px;
+}
+.numpad div:nth-child(6) button:first-child {
+    height: 50px;
+    width: 108px;
+}
+.numpad div:nth-child(6) button {
+    height: 50px;
+}
+.numpad1 {
+    /* background-color: blue; */
+    display: block;
+}
+.numpad1 div {
+    /* background-color: orange; */
+    margin-block: 10px;
+    display: flex;
+}
+.numpad1 div:nth-child(1) button {
+    width: 50px;
+    height: 25px;
+    margin-inline: 4px;
+}
+.numpad1 div:nth-child(2) button {
+    width: 50px;
+    height: 50px;
+    margin-inline: 4px;
+}
+.numpad1 div:nth-child(3) button {
+    width: 50px;
+    height: 110px;
+    margin-inline: 4px;
+}
+.numpad1 div:nth-child(4) button {
+    width: 50px;
+    height: 110px;
+    margin-inline: 4px;
+}
